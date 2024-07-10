@@ -7,26 +7,27 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  font-family: "Lato", sans-serif;
   background-color: #F2F5F9;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  max-width: 1280px;
+  min-height: 100vh;
 }
 
 .card {
   background-color: #FFFFFF;
-  max-width: 400px;
   border-radius: 10px;
+  max-width: 400px;
 }
 
 .card-img-hero {
-  width: 100%;
-  height: 270px;
-  object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  height: 270px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .card-wrapper-img-overlay {
@@ -36,9 +37,9 @@ body {
 .card-img-overlay {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  position: absolute;
-  left: 0;
   bottom: 0;
+  left: 0;
+  position: absolute;
   width: 100%;
 }
 
@@ -50,15 +51,15 @@ body {
 }
 
 .card-title-text {
+  color: #111729;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #111729;
 }
 
 .card-body-text {
-  font-size: 16px;
   color: #677489;
+  font-size: 16px;
 }
 
 .card-small-text {
@@ -71,34 +72,34 @@ hr {
 }
 
 .card-wrapper-avatar-data {
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 15px;
 }
 
 .card-avatar-bg {
-  display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #F2F5F9;
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  width: 50px;
 }
 
 .card-avatar {
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 .card-avatar-name {
+  color: #111729;
   font-size: 16px;
   font-weight: 600;
-  color: #111729;
 }
 
 .card-avatar-job {
-  font-size: 12px;
   color: #677489;
+  font-size: 12px;
 }
